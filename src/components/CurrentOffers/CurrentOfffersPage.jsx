@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { Table, Button, Card } from "react-bootstrap"; // Import Card from react-bootstrap
+import { Table, Button, Card } from "react-bootstrap";
 import categories from "../config/categories";
 import { useProductsContext } from "../../context/ProductsContext";
-import ProductCard from "../Products/ProductCard"; // Assuming you have a ProductCard component
+import ProductCard from "../Products/ProductCard";
 import { useLocation } from "react-router-dom";
 import slugify from "slugify";
 
