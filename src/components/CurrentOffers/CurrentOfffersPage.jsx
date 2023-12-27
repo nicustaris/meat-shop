@@ -24,7 +24,6 @@ const CurrentOffersPage = () => {
   console.log(filteredProducts.length);
   return (
     <div className="container mt-4">
-      {/* Offers Section */}
       <Table striped bordered hover>
         <thead>
           <tr>
@@ -83,8 +82,8 @@ const CurrentOffersPage = () => {
           ))
         )}
       </div>
-      {/* Special Offers Section */}
-      <Table striped bordered hover className="mt-4">
+
+      {/* <Table striped bordered hover className="mt-4">
         <thead>
           <tr>
             <th colSpan="2" className="text-center bg-light fw-bold fs-2">
@@ -92,8 +91,8 @@ const CurrentOffersPage = () => {
             </th>
           </tr>
         </thead>
-        <tbody>{/* Add content for special offers here */}</tbody>
-      </Table>
+        <tbody></tbody>
+      </Table> */}
     </div>
   );
 };
